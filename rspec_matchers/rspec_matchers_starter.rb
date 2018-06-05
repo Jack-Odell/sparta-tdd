@@ -39,8 +39,8 @@ describe "show the depths of rspec" do
       it 'should test the various class type matchers' do
         g = 5.0
         h = Hash.new
-    #     expect(g).to #check if g is a float
-    #     expect(h).to #check if h is a hash
+        expect(g).to be_a (Float)#check if g is a float
+        expect(h).to be_a (Hash) #check if h is a hash
       end
 
 
