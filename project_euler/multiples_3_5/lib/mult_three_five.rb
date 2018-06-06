@@ -1,0 +1,2 @@
+class MultThreeFive
+end
